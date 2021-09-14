@@ -218,7 +218,7 @@ print("===================")
 x = {"apple", "banana", "cherry"}
 y = {"google", "runoob", "apple"}
 x.update(y)
-print(x) # {'cherry', 'apple', 'banana', 'google', 'runoob'}S
+print(x) # {'cherry', 'apple', 'banana', 'google', 'runoob'}
 
 
 
