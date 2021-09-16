@@ -9,7 +9,8 @@ print(f'hello {name}')
 print(f'{1+2}')
 w = {'name':'runoob','url':'www.baidu.com'}
 print(f'{w["name"]} : {w["url"]}')
-# Python 字符串内建函数 等大小写转换
-# capitalize()
-# 将字符串的第一个字符转换为大写
+print("=========")
+x=1
+print(f'{x+1}')
+
 
