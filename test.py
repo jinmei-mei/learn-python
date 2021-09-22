@@ -39,3 +39,21 @@ while(len1>=0):
     len1=len1-1
 print(''.join(str_list))
 print(len(str_list))
+# sites = ["Baidu","Google","Runoob","Taobao"]
+# for site in sites:
+#     if site == 'Runoob':
+#         print("这里是菜鸟教程")
+#         break
+#     print("循环数据" + site)
+# else:
+#     print("没有循环数据")
+# print("完成循环")
+for n in range(2,10):
+    for x in range(2,n):
+        if n%x == 0:
+            print(n,'等于','*',n//x)
+            break
+    else:
+        #循环中没有找到该元素
+        print(n,'是质数')
+

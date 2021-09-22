@@ -202,7 +202,7 @@ print('============')
 # 案例
 str1 = "abcdefg"
 print(len(str1))
-len1 = len(str1)-1
+len1 = len(str1)-1   # 最大下标的获取 len1在这表表示下标，不是长度
 print(len1)
 str_list = []
 while(len1>=0):
