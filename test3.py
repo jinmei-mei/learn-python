@@ -1,7 +1,9 @@
-# coding=utf-8
-for char in 'PYTHON STRING':
-    if char == ' ':
-        break
-    print(char,end="")
-    if char == '0':
-        continue
+
+def change(a):
+    print(id(a))
+    a=10
+    print(id(a))
+
+a=1
+print(id(a))
+change(a)
