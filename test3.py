@@ -1,9 +1,8 @@
+def factortial(n):
+    if n ==0:
+        return 1
+    return n * factortial(n-1)
 
-def change(a):
-    print(id(a))
-    a=10
-    print(id(a))
 
-a=1
-print(id(a))
-change(a)
+d = factortial(4)
+print(d)

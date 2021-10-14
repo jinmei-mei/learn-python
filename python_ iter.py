@@ -102,7 +102,6 @@ for x in myiter:
 
 以下实例使用 yield 实现斐波那契数列：
 '''
-'''
 FIXME
 import sys
  
@@ -122,4 +121,3 @@ while True:
     except StopIteration:
         sys.exit()
 
-'''
