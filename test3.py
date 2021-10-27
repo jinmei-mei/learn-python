@@ -1,4 +1,3 @@
-a=1
-b=2
-a,b=b,a
-print(a,b)
+x = 10
+if x>5:
+    raise Exception("X 不能大于5，x的值为：{}".format(x))
